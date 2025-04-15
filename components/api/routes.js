@@ -40,13 +40,13 @@ router.get("/experiences", async (req, res) => {
 // Add Portfolio Information endpoint
 router.get("/portfolio-info", (req, res) => {
     const portfolioInfo = {
-        name: "Your Name",
+        name: "Jinal Patel",
         role: "Full Stack Web Developer",
         summary: "Passionate web developer with expertise in building modern, responsive web applications using the latest technologies.",
-        location: "Vancouver, BC",
-        email: "your.email@example.com",
-        github: "https://github.com/yourusername",
-        linkedin: "https://linkedin.com/in/yourusername"
+        location: "Guelph, ON",
+        email: "jvpatel1812@gmail.com",
+        github: "https://github.com/Coder-Jinal",
+        linkedin: "https://www.linkedin.com/in/jinalpatel1812/"
     };
     res.json(portfolioInfo);
 });
